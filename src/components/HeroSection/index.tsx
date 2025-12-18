@@ -3,49 +3,66 @@ import { SocialLink } from "../SocialLink";
 
 export function HeroSection() {
     return (
-        <section className="
-            relative flex flex-col items-center justify-center
-            px-6 py-20 text-white
-            bg-linear-to-b from-orange-500
-        ">
-            <div className="absolute inset-0 -z-10" />
-
+        <section
+            className="
+                relative flex flex-col items-center
+                px-4 sm:px-6
+                pt-8 sm:pt-12
+                pb-16 sm:pb-20
+                text-white
+bg-linear-to-b from-orange-500            "
+        >
             <img
                 src="/images/Logo_Mr_Pumpking.png"
                 alt="Logo Mr Pumpking"
-                className="w-[260px] md:w-[420px]
-                           pixelated
-                           drop-shadow-[4px_4px_0_#000]"
+                className="
+                    w-[220px] sm:w-[280px] md:w-[420px]
+                    pixelated
+                    drop-shadow-[4px_4px_0_#000]
+                "
             />
 
-
-            <p className="
-                mt-4 max-w-2xl text-center
-                text-sm md:text-base
-                text-zinc-200
-            ">
-                Olá, seja bem vindo, eu sou o Marcos, mais conhecido nas redes como Mr. Pumpking.
+            <p
+                className="
+                    mt-6
+                    max-w-xl md:max-w-2xl
+                    text-center
+                    text-sm sm:text-base
+                    text-zinc-200
+                    leading-relaxed
+                "
+            >
+                Olá, seja bem-vindo. Eu sou o Marcos, mais conhecido nas redes como Mr. Pumpking.
                 Faço lives diariamente de jogos variados, com foco principal em Minecraft.
-                Lives, entreterimento e caos cuidadosamente organizados para entretenimento
+                Lives, entretenimento e caos cuidadosamente organizados para conteúdo
                 de qualidade duvidosa, porém constante.
             </p>
 
-            <div className="
-    group mt-6 flex items-end gap-6 px-6 py-3
-    rounded-2xl
-    bg-white/10 backdrop-blur-md
-    border border-white/20
-">
+            <div
+                className="
+                    group
+                    mt-8 sm:mt-10
+                    flex items-center gap-4 sm:gap-6
+                    px-4 sm:px-6
+                    py-3
+                    rounded-xl
+                    bg-white/10 backdrop-blur-md
+                    border border-white/20
+                "
+            >
                 <SocialLink href="https://www.twitch.tv/mrpumpkingbr" icon={<FaTwitch />} />
                 <SocialLink href="http://instagram.com.br/_mrpumpkingbr" icon={<FaInstagram />} />
                 <SocialLink href="https://www.tiktok.com/@_mrpumpkingoficial" icon={<FaTiktok />} />
                 <SocialLink href="https://www.youtube.com/@mrpumpkingbr" icon={<FaYoutube />} />
-
             </div>
 
-            <hr className="
-                mt-12 w-3/4
-            " />
+            <hr
+                className="
+                    mt-10 sm:mt-12
+                    w-3/4 sm:w-1/2
+                    border-t border-white/20
+                "
+            />
         </section>
     );
 }
