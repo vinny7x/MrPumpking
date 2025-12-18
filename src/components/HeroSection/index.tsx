@@ -10,7 +10,7 @@ export function HeroSection() {
                 pt-8 sm:pt-12
                 pb-16 sm:pb-20
                 text-white
-bg-linear-to-b from-orange-500            "
+                bg-linear-to-b from-orange-500"
         >
             <img
                 src="/images/Logo_Mr_Pumpking.png"
@@ -24,15 +24,14 @@ bg-linear-to-b from-orange-500            "
 
             <p
                 className="
-                    mt-6
-                    max-w-xl md:max-w-2xl
-                    text-center
-                    text-sm sm:text-base
-                    text-zinc-200
-                    leading-relaxed
-                "
+        mt-6
+        max-w-sm sm:max-w-lg md:max-w-2xl
+        text-center
+        text-sm sm:text-base md:text-lg
+        text-zinc-200
+    "
             >
-                Olá, seja bem-vindo. Eu sou o Marcos, mais conhecido nas redes como Mr. Pumpking.
+                Olá, seja bem-vindo(a). Eu sou o Marcos, mais conhecido nas redes como Mr. Pumpking.
                 Faço lives diariamente de jogos variados, com foco principal em Minecraft.
                 Lives, entretenimento e caos cuidadosamente organizados para conteúdo
                 de qualidade duvidosa, porém constante.
