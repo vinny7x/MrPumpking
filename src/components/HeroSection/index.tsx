@@ -10,10 +10,10 @@ export function HeroSection() {
                 pt-8 sm:pt-12
                 pb-16 sm:pb-20
                 text-white
-                bg-linear-to-b from-orange-500"
+                bg-linear-to-b from-gray-500"
         >
             <img
-                src="/images/Logo_Mr_Pumpking.png"
+                src="/images/Logo_site_1.png"
                 alt="Logo Mr Pumpking"
                 className="
                     w-[220px] sm:w-[280px] md:w-[420px]

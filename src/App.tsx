@@ -7,13 +7,8 @@ function App() {
     <>
       <HeroSection />
       <CardsContainer>
-        <Card image="https://placehold.co/500x200" alt="imagem ai" href="https://google.com" />
-        <Card image="https://placehold.co/500x200" alt="imagem ai" href="https://google.com" />
-        <Card image="https://placehold.co/500x200" alt="imagem ai" href="https://google.com" />
-        <Card image="https://placehold.co/500x200" alt="imagem ai" href="https://google.com" />
-        <Card image="https://placehold.co/500x200" alt="imagem ai" href="https://google.com" />
-       
-
+        <Card image="/images/banners/pixgg.png" alt="imagem ai" href="https://pixgg.com/marcosbarrocal" />
+        <Card image="/images/banners/discord.png" alt="imagem ai" href="https://discord.gg/dDeJFDQ8zm" />
       </CardsContainer>
     </>
 
