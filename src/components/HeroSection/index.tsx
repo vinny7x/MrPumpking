@@ -1,5 +1,6 @@
-import { FaTiktok, FaInstagram, FaTwitch, FaYoutube } from "react-icons/fa6";
+import { FaTiktok, FaInstagram, FaTwitch, FaYoutube, FaCoins } from "react-icons/fa6";
 import { SocialLink } from "../SocialLink";
+import { Button } from "../Button";
 
 export function HeroSection() {
     return (
@@ -54,6 +55,10 @@ export function HeroSection() {
                 <SocialLink href="https://www.tiktok.com/@_mrpumpkingoficial" icon={<FaTiktok />} />
                 <SocialLink href="https://www.youtube.com/@mrpumpkingbr" icon={<FaYoutube />} />
             </div>
+            <span className="m-2">
+
+                <Button href="https://www.tiktok.com/coin?rc=dkepj658" icon={<FaCoins />}>Moedas baratinhas | TikTok</Button>
+            </span>
 
             <hr
                 className="
