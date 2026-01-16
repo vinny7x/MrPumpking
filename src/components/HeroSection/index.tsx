@@ -1,4 +1,5 @@
 import { FaTiktok, FaInstagram, FaTwitch, FaYoutube, FaCoins } from "react-icons/fa6";
+import { SiGmail } from "react-icons/si";
 import { SocialLink } from "../SocialLink";
 import { Button } from "../Button";
 
@@ -54,6 +55,7 @@ export function HeroSection() {
                 <SocialLink href="http://instagram.com.br/_mrpumpkingbr" icon={<FaInstagram />} />
                 <SocialLink href="https://www.tiktok.com/@_mrpumpkingoficial" icon={<FaTiktok />} />
                 <SocialLink href="https://www.youtube.com/@mrpumpkingbr" icon={<FaYoutube />} />
+                <SocialLink href="mailto:mrpumpkingredes@gmail.com" icon={<SiGmail />} />
             </div>
             <span className="m-2">
 
