@@ -2,6 +2,7 @@ import { FaTiktok, FaInstagram, FaTwitch, FaYoutube, FaCoins } from "react-icons
 import { SiGmail } from "react-icons/si";
 import { SocialLink } from "../SocialLink";
 import { Button } from "../Button";
+import { Header } from "../Header";
 
 export function HeroSection() {
     return (
@@ -14,15 +15,7 @@ export function HeroSection() {
                 text-white
                 bg-linear-to-b from-gray-500"
         >
-            <img
-                src="/images/Logo_site_1.png"
-                alt="Logo Mr Pumpking"
-                className="
-                    w-[220px] sm:w-[280px] md:w-[420px]
-                    pixelated
-                    drop-shadow-[4px_4px_0_#000]
-                "
-            />
+            <Header />
 
             <p
                 className="
