@@ -13,7 +13,7 @@ export function HeroSection() {
                 pt-8 sm:pt-12
                 pb-16 sm:pb-20
                 text-white
-                bg-linear-to-b from-gray-500"
+                bg-linear-to-b from-gray-400/50"
         >
             <Header />
 
